@@ -17,12 +17,12 @@ struct Liste {
 //	liste nulle
 //Post-condition
 //	liste initialisé
-void init();
+void init(Liste * li);
 
 //Procedure qui desinitialise une liste
 //Post-condition
 //	liste desinitialisé
-void desinit();
+void desinit(Liste * li);
 
 //Procedure qui ajoute un élément à la liste en une position donnée
 //	li : la liste
@@ -32,7 +32,7 @@ void desinit();
 //	0<=pos<=tailleTab
 //Post-condition
 //	élément ajouté à la liste à la position
-void adjElemList(Liste li, Elt x, int pos);
+void adjElemList(Liste * li, Elt x, int pos);
 
 //Procedure qui supprime un élément en une position donnée
 //	li : la liste
@@ -42,17 +42,17 @@ void adjElemList(Liste li, Elt x, int pos);
 //	liste non vide
 //Post-condition
 //	élément supprimé de la liste
-void supElemList(Liste li, int pos);
+void supElemList(Liste * li, int pos);
 
 //Procedure qui affiche la liste
 //	li : la liste
 //Pré-condition
 //	Liste non vide
-void affList(Liste li);
+void affList(Liste * li);
 
 //Fonction qui récupère la longueur de la liste
 //	li : la liste
 //Retourne 0 si la liste est vide, nbElem sinon
-int longueurList(Liste li);
+int longueurList(Liste * li);
 
 #endif
