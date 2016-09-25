@@ -64,4 +64,7 @@ int longueurList(Liste * li);
 //	tableau redimenssioné
 void dimensionnerTab(Liste * li, int pas);
 
+//Cette procédure affiche le menu
+void menu();
+
 #endif
