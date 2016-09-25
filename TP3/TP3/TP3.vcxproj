@@ -112,6 +112,7 @@
   <ItemGroup>
     <ClCompile Include="adjElemList.cpp" />
     <ClCompile Include="affList.cpp" />
+    <ClCompile Include="dimenssionerTab.cpp" />
     <ClCompile Include="init_desinit.cpp" />
     <ClCompile Include="longueurList.cpp" />
     <ClCompile Include="main.cpp" />

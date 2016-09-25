@@ -10,7 +10,7 @@ void adjElemList(Liste * li, Elt x, int pos) {
 		init(li);
 	}
 	for (i = (*li).nbElem; i > pos; i--) {
-		(*li).tab[i+1] = (*li).tab[i];
+		*((*li).tab + i+1) = *((*li).tab + i);
 	}
 	(*li).tab[pos] = x;
 	(*li).nbElem++;
