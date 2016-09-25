@@ -55,4 +55,13 @@ void affList(Liste * li);
 //Retourne 0 si la liste est vide, nbElem sinon
 int longueurList(Liste * li);
 
+//Procedure qui dimensionne un tableau
+//	li : la liste
+//	pas : le nombre qui doit être ajouté ou supprimé du tableau
+//Pré-condition
+//	liste non vide
+//Post-condition
+//	tableau redimenssioné
+void dimensionnerTab(Liste * li, int pas);
+
 #endif
