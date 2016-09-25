@@ -3,7 +3,7 @@ void adjElemList(Liste * li, Elt x, int pos) {
 	int i;
 	if ((*li).tab != NULL) {
 		if ((*li).nbElem == (*li).tailleTab) {
-			//dimenssionner
+			//dimensionnerTab(li, 10);
 		}
 	}
 	else {

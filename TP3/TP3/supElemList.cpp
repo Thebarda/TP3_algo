@@ -8,7 +8,7 @@ void supElemList(Liste * li, int pos) {
 		}
 		(*li).nbElem--;
 		if (((*li).nbElem != 0) && ((*li).nbElem % 10 == 0)) {
-			//dimenssionner
+			dimensionnerTab(li, -10);
 		}
 	}
 }
